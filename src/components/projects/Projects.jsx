@@ -5,10 +5,16 @@ import "swiper/css";
 import "swiper/css/pagination";
 import ProjectCard from "../projectcard/ProjectCard";
 import "./projects.css";
+import work1 from "../../assets/projectImages/work1.png";
+import work2 from "../../assets/projectImages/work2.png";
+import work3 from "../../assets/projectImages/work3.png";
+import work4 from "../../assets/projectImages/work4.png";
+
+const projectImagesList = [work1, work2, work3, work4];
 
 const projectData = [
   {
-    image: "/work/3.png",
+    image: projectImagesList[0],
     category: "react js",
     name: "Nexa Website",
     description:
@@ -17,7 +23,7 @@ const projectData = [
     github: "/",
   },
   {
-    image: "/work/4.png",
+    image: projectImagesList[1],
     category: "react js",
     name: "Solstice Website",
     description:
@@ -26,7 +32,7 @@ const projectData = [
     github: "/",
   },
   {
-    image: "/work/2.png",
+    image: projectImagesList[2],
     category: "next js",
     name: "Lumina Website",
     description:
@@ -35,7 +41,7 @@ const projectData = [
     github: "/",
   },
   {
-    image: "/work/1.png",
+    image: projectImagesList[3],
     category: "next js",
     name: "Evolve Website",
     description:
@@ -44,7 +50,7 @@ const projectData = [
     github: "/",
   },
   {
-    image: "/work/3.png",
+    image: projectImagesList[0],
     category: "next js",
     name: "Ignite Website",
     description:
@@ -53,7 +59,7 @@ const projectData = [
     github: "/",
   },
   {
-    image: "/work/4.png",
+    image: projectImagesList[1],
     category: "next js",
     name: "Envision Website",
     description:
@@ -62,7 +68,7 @@ const projectData = [
     github: "/",
   },
   {
-    image: "/work/1.png",
+    image: projectImagesList[2],
     category: "fullstack",
     name: "Serenity Website",
     description:
@@ -71,7 +77,7 @@ const projectData = [
     github: "/",
   },
   {
-    image: "/work/3.png",
+    image: projectImagesList[3],
     category: "fullstack",
     name: "Nova Website",
     description:
@@ -80,7 +86,7 @@ const projectData = [
     github: "/",
   },
   {
-    image: "/work/2.png",
+    image: projectImagesList[0],
     category: "fullstack",
     name: "Zenith Website",
     description:
