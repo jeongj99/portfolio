@@ -29,30 +29,3 @@
 .swiper {
   height: 480px;
 }
-
-@media (min-width: 1280px) {
-  .xl\:mx-0 {
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-
-  .xl\:text-left {
-    text-align: left;
-  }
-
-  .xl\:h-\[400px\] {
-    height: 400px;
-  }
-
-  .xl\:items-start {
-    align-items: flex-start;
-  }
-
-  .xl\:max-w-\[1000px\] {
-    max-width: 1000px;
-  }
-
-  .xl\:absolute {
-    position: absolute;
-  }
-}

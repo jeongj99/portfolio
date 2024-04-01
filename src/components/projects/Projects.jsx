@@ -98,7 +98,7 @@ const projectData = [
 
 const Projects = () => {
   return (
-    <section className="projects section">
+    <section className="projects section" id="projects">
       <div className="projects__container">
         <div className="projects__content">
           <h2 className="section__title">Latest Projects</h2>
